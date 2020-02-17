@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+
+
+.titre-un{
+	color:#434e52;
+	font-family: 'Rajdhani', cursive;
+	letter-spacing: 5px;
+}
+
+.titre-deux{
+	color:#c06c84;
+	font-family: 'Rajdhani', cursive;
+}
+
+.paragraph-design{
+	color: #434e52;
+	line-height: 2;
+	font-size: 17px;
+}
+
+.btn-pink{
+	background-color: #c06c84;
+	color: white;
+	text-decoration: none;
+	padding: 10px 55px;
+	border-radius: 50px;
+	box-shadow: 6px 10px 20px rgb(0,0,0,0.2);
+	font-family: 'Amatic SC', cursive;
+	font-size: 23px;
+	transition: .5s;
+}
+
+.btn-pink:hover{
+	background-color: pink;
+}
+
+.container {
+	width: 910px;
+	margin: 40px auto;
+}
+.card-design{
+	background-color: #e5e5e5;
+	padding: 50px;
+	margin: 25px 0px;
+	border-radius: 5px;
+	box-shadow: 0 0 15px rgba(0,0,0,0.2);
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 40px;
+}
+
+.list-inline #facebook {
+	color: #3b5998;
+}
+
+.list-inline #instagram {
+	color: #b80d57;
+}
+
+.list-inline #tumblr {
+	color: #34526f;
+}
+.list-inline #facebook:hover {
+	color: #7098da;
+	transition: .5s;
+}
+.list-inline #instagram:hover {
+	color: #c06c84;
+	transition: .5s;
+}
+.list-inline #tumblr:hover {
+	color: #649dad;
+	transition: .5s;
+}
+
+#profile{
+	width: 700px;
+	height: 300px;
+	box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+#introduction {
+	padding-bottom: 40px;
+}
+
+
+@media (max-width: 950px) {
+	.container {
+		width: 830px;
+	}
+	#profile {
+		width: 600px;
+		height: 260px;
+	}
+}
+
+@media (max-width: 870px) {
+	.container {
+		width: 720px;
+	}
+	#profile {
+		width: 550px;
+		height: 240px;
+	}
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 630px;
+	}
+	#profile {
+		width: 420px;
+		height: 190px;
+	}
+
+@media (max-width: 670px) {
+	.container {
+		width: 540px;
+	}
+	#profile {
+		width: 390px;
+		height: 180px;
+	}
+
+@media (max-width: 600px) {
+	.container {
+		width: 500px;
+	}
+	#profile {
+		width: 350px;
+		height: 160px;
+	}
+
+@media (max-width: 580px) {
+	.container {
+		width: 460px;
+	}
+	#profile {
+		width: 350px;
+		height: 160px;
+	}
+}
